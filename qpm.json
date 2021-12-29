@@ -7,8 +7,8 @@
     "version": "0.1.0",
     "url": null,
     "additionalData": {
-       "overrideSoName": "libjsrm.so"
-       }
+      "overrideSoName": "libjsrm.so"
+    }
   },
   "dependencies": [
     {
@@ -37,12 +37,27 @@
     },
     {
       "id": "config-utils",
-      "versionRange": "^0.6.0",
+      "versionRange": "*",
       "additionalData": {}
     },
     {
       "id": "questui",
       "versionRange": "^0.11.1",
+      "additionalData": {}
+    },
+    {
+      "id": "songloader",
+      "versionRange": "*",
+      "additionalData": {}
+    },
+    {
+      "id": "songdownloader",
+      "versionRange": "*",
+      "additionalData": {}
+    },
+    {
+      "id": "songdatacore",
+      "versionRange": "*",
       "additionalData": {}
     }
   ],
